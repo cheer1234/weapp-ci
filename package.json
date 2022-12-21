@@ -1,0 +1,38 @@
+{
+  "name": "wx-ci",
+  "version": "1.0.0",
+  "description": "小程序ci测试",
+  "scripts": {
+    "dev": "export NODE_ENV='dev' && node ./scripts/script.env.js",
+    "beta": "export NODE_ENV='beta' && node ./scripts/script.env.js",
+    "prod": "export NODE_ENV='prod' && node ./scripts/script.env.js",
+    "start": "node ./scripts/publish/start.js",
+    "build": "node ./scripts/publish/publish-cli.js"
+  },
+  "keywords": [],
+  "author": "YifanLou",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "dayjs": "^1.11.7",
+    "follow-redirects": "^1.15.2",
+    "md5-file": "^5.0.0",
+    "path": "^0.12.7",
+    "weui-miniprogram": "^1.2.3"
+  },
+  "devDependencies": {
+    "commander": "^9.4.1",
+    "inquirer": "^8.2.5",
+    "miniprogram-api-typings": "^2.8.3-1",
+    "miniprogram-ci": "^1.8.25"
+  },
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yfLou1011/wx-ci.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yfLou1011/wx-ci/issues"
+  },
+  "homepage": "https://github.com/yfLou1011/wx-ci#readme"
+}
